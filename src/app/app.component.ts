@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 
-import { products } from './products';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,5 +7,4 @@ import { products } from './products';
 })
 export class AppComponent {
   title = 'angular9-mystore';
-  products = products;
 }
